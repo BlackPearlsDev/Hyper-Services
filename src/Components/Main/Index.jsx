@@ -1,5 +1,5 @@
-import React from 'react'
-import Cards from '../Cards/Index'
+import React from 'react';
+import Cards from '../Cards/Index';
 
 function Main() {
   return (
@@ -15,4 +15,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Main;

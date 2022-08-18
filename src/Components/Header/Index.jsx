@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Header() {
     return (
         <header>
+            {/* <img src="../public/assets/bg.png" alt="Le logo du site" /> */}
             <h1>HYPER SERVICES</h1>
             <nav>
                 <a href="#">Services</a>
@@ -13,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;
