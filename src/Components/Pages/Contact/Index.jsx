@@ -6,13 +6,13 @@ function Contact() {
             <h2>Contact</h2>
 
             <form action="">
-                <p className='formTxt'><i class="fa-solid fa-user"></i>Your name</p>
+                <label className='formTxt'><i class="fa-solid fa-user"></i>Your name</label>
                 <input type="text" placeholder="John Doe" />
-                <p className='formTxt'><i class="fa-solid fa-at"></i>Your email</p>
+                <label className='formTxt'><i class="fa-solid fa-at"></i>Your email</label>
                 <input type="email" placeholder="johndoe@gmail.com" />
-                <p className='formTxt'><i class="fa-solid fa-bars"></i>Your subject</p>
+                <label className='formTxt'><i class="fa-solid fa-bars"></i>Your subject</label>
                 <input type="text" placeholder="My plan, commercial, questions.." />
-                <p className='formTxt'><i class="fa-solid fa-message"></i>Your message</p>
+                <label className='formTxt'><i class="fa-solid fa-message"></i>Your message</label>
                 <textarea name="" id="" cols="30" rows="10" placeholder="I contact you for an offer.."></textarea>
                 <button type="submit">Send</button>
             </form>
