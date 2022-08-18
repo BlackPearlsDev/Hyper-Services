@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../Cards/Index';
+import Cards from '../../UI/Cards/Index';
 
 function Main() {
   return (
