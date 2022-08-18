@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background: url('../public/assets/bg.png') no-repeat fixed;
+    background-size: 100% 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+    text-align: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    box-shadow: 0px 0px 50px -8px #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    font-size: 5rem;
+    font-family: 'Oxanium', cursive;
+    padding: 1%;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-size: 3rem;
+    font-family: 'Oxanium', cursive;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+nav a:hover {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid white;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Oxanium', cursive;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 15%;
+    padding: 6px;
+}
+
+#zoneCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 30px -8px #000000;
+    border-radius: 20px;
+}
+
+.cards:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+    margin: 2%;
+}
+
+#priceTxt {
+    font-size: 2.8rem;
+    font-family: 'Oxanium', cursive;
+    font-weight: 800;
+    color: #0093E9;
+    text-align: center;
+    margin: 2%;
+}
+
+.cards ul {
+    text-align: center;
+    list-style: none;
+    margin: 2%;
+}
+
+.cards ul li {
+    color: #333;
+    font-size: 2rem;
+    font-family: 'Oxanium', cursive;
+    margin-top: 2%;
+}
+
+.cards button {
+    font-size: 2.2rem;
+    font-family: 'Oxanium', cursive;
+    color: white;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: transparent;
+    border-radius: 10px;
+    padding: 4%;
+    margin-top: 10%;
+    width: 70%;
+}
+
+#cardPro {
+    background-color: #0093E9;
+    color: white;
+}
+
+#cardPro #priceTxt {
+    color: white;
+}
+
+#cardPro ul li {
+    color: white;
+}
+
+#cardPro button {
+    background-image: linear-gradient(160deg, white 0%, white 100%);
+    color: #0093E9;
+}
+
+footer {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-family: 'Oxanium', cursive;
+    box-shadow: 0px 0px 50px -8px #000000;
+    padding: 1%;
 }
